@@ -23,19 +23,26 @@
   list-style-type: none;
 }
 
-.midsection-container,
-.midsection-container-cv {
+.midsection-container {
   margin: 3rem 0 auto;
 }
 
-.midsection-container h2,
-.midsection-container-cv h2 {
+.midsection-container h2 {
   text-align: center;
 }
 
-.midsection-container-cv {
+.cv-container {
   font-size: 1.4rem;
   line-height: 1.7rem;
+}
+
+.contacts-container {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+.contacts-container h4 {
+  margin: 2rem 0 0.2rem;
 }
 
 .intext-img {
@@ -78,4 +85,13 @@
   padding-right: 4rem;
   text-align: right;
   vertical-align: top;
+}
+
+.submit {
+  text-align: center;
+}
+
+.submit-button {
+  font-size: 0.9rem;
+  padding: 0.5rem 1.2rem;
 }
