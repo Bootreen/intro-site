@@ -17,23 +17,34 @@
         </ul>
       </nav>
     </header>
-    <main class="midsection-container">
+    <main class="midsection-container contacts-container">
       <h2>Contact</h2>
       <div>+49 160 1234567</div>
       <div><a href="mailto:bootreen@gmail.com">bootreen@gmail.com</a></div>
       <div>telegram: <a href="https://t.me/bootreen">bootreen</a></div>
-      <h3>Leave a message</h3>
+      <h4>Leave a message</h4>
       <form action="">
-        <div>
-          <label for="email">Enter your email: </label>
-          <input type="email" name="email" id="email" required />
+        <div">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            size="50"
+            placeholder="Enter you email here"
+          />
         </div>
         <div>
-          <label for="message">Enter your message: </label>
-          <input type="text" name="message" id="message" required />
+          <textarea
+            type="text"
+            name="message"
+            id="message"
+            rows="10"
+            cols="50"
+            placeholder="Enter you message here"
+          ></textarea>
         </div>
-        <div>
-          <input type="submit" value="Send" />
+        <div class="submit">
+          <input class="submit-button" type="submit" value="Send" />
         </div>
       </form>
     </main>
