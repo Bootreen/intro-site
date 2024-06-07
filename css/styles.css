@@ -93,12 +93,14 @@
   position: relative;
   right: 3rem;
   top: 24rem;
+  margin-bottom: -4.3rem;
 }
 
 .cv-emoji {
   position: relative;
   left: 77rem;
   top: 21rem;
+  margin-bottom: -4.2rem;
 }
 
 .cv-container {
