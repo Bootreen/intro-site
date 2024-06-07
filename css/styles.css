@@ -13,6 +13,13 @@
   background-color: #bbb;
 }
 
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #bbb;
+  z-index: 10;
+}
+
 .header h1 {
   text-align: center;
 }
@@ -50,9 +57,10 @@
 .lang-selector > div:last-child > a {
   display: none;
   height: 2rem;
-  margin-left: 0.6rem;
+  padding: 0 0.6rem;
   text-decoration: none;
   color: #000;
+  background-color: #bbb;
 }
 
 .lang-selector:hover > div:last-child > a {
@@ -66,7 +74,7 @@
 }
 
 .midsection-container {
-  margin: 3rem 0 auto;
+  margin: 12rem 0 auto;
 }
 
 .midsection-container h2 {
@@ -79,6 +87,18 @@
   width: 400px;
   border-radius: 0.7rem;
   box-shadow: 0.25rem 0.25rem 0.7rem #000;
+}
+
+.emoji {
+  position: relative;
+  right: 3rem;
+  top: 24rem;
+}
+
+.cv-emoji {
+  position: relative;
+  left: 77rem;
+  top: 21rem;
 }
 
 .cv-container {
