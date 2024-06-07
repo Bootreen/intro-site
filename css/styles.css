@@ -89,20 +89,6 @@
   box-shadow: 0.25rem 0.25rem 0.7rem #000;
 }
 
-.emoji {
-  position: relative;
-  right: 3rem;
-  top: 24rem;
-  margin-bottom: -4.3rem;
-}
-
-.cv-emoji {
-  position: relative;
-  left: 77rem;
-  top: 21rem;
-  margin-bottom: -3.5rem;
-}
-
 .cv-container {
   font-size: 1.4rem;
   line-height: 1.7rem;
