@@ -10,18 +10,25 @@
   font-family: "Roboto";
   font-size: 1.7rem;
   line-height: 2.3rem;
-  background-color: #bbb;
+  background-color: #cfc5c2;
 }
 
 .header {
   position: fixed;
   width: 100%;
-  background-color: #bbb;
+  background-color: #cfc5c2;
   z-index: 10;
 }
 
 .header h1 {
   text-align: center;
+}
+
+h1,
+h2,
+h4,
+strong {
+  color: #505555;
 }
 
 .header-menu {
@@ -60,7 +67,7 @@
   padding: 0 0.6rem;
   text-decoration: none;
   color: #000;
-  background-color: #bbb;
+  background-color: #cfc5c2;
 }
 
 .lang-selector:hover > div:last-child > a {
@@ -120,6 +127,7 @@
   padding-right: 4rem;
   text-align: right;
   vertical-align: top;
+  color: #505555;
 }
 
 .contacts-container {
@@ -138,6 +146,27 @@
 .contacts-container > form div:last-child > input {
   font-size: 0.9rem;
   padding: 0.5rem 1.2rem;
+}
+
+.contacts-container form > *:nth-child(1) > input {
+  width: 24rem;
+  height: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-size: medium;
+}
+
+.contacts-container input {
+  padding: 0 0.25rem;
+  border: solid 1px #505555;
+  border-radius: 0.3rem;
+}
+
+.contacts-container textarea {
+  padding: 0 0.25rem;
+  width: 24rem;
+  border: solid 1px #505555;
+  border-radius: 0.3rem;
+  font-size: medium;
 }
 
 .footer {
